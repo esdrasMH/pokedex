@@ -5,6 +5,11 @@
   border: 5px solid #4b5563;
   border-radius: 12px;
   background-color: #e5e7eb;
+  cursor: pointer;
+}
+
+.pokemon-card:hover {
+  filter: drop-shadow(#374151 0.5em 0.5em 0.8em);
 }
 
 .pokemon-card p {
