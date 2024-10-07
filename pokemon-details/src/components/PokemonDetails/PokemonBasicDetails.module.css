@@ -1,0 +1,20 @@
+.pokemon-basic-details {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  border-radius: 8px;
+}
+
+.pokemon-basic-details h3 {
+  text-align: center;
+  padding-left: 0.5em;
+}
+
+.pokemon-basic-details h3::first-letter {
+  text-transform: uppercase;
+}
+
+.pokemon-basic-details img {
+  height: 240px;
+  aspect-ratio: 1/1;
+}
