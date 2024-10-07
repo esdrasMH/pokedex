@@ -1,0 +1,12 @@
+.pokemon-details-container {
+  height: inherit;
+  width: inherit;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .responsive-container-details {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}
