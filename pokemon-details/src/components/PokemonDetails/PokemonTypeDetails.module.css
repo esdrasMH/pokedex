@@ -1,0 +1,22 @@
+.pokemon-type-details {
+  width: 100%;
+  min-height: 103px;
+}
+
+.pokemon-type-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon-type-details li {
+  display: inline-block;
+  background-color: #e5e7eb;
+  padding: 0.3em 0.5em;
+  border-radius: 16px;
+  margin-right: 8px;
+}
+
+.pokemon-type-details li::first-letter {
+  text-transform: uppercase;
+}
