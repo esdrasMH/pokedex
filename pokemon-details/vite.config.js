@@ -9,7 +9,7 @@ export default defineConfig({
     federation({
       name: "pokemon-details",
       filename: "remoteEntry.js",
-      exposes: { "./PokemonDetails": "./src/components/PokemonDetails.jsx" },
+      exposes: { "./PokemonDetails": "./src/components/PokemonDetails" },
       remotes: {},
       shared: ["react", "react-dom"],
     }),
