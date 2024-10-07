@@ -1,0 +1,9 @@
+.pokemon-dimensions-details {
+  display: flex;
+  gap: 1em;
+}
+
+.pokemon-dimensions-details div {
+  width: 100%;
+  min-height: 93px;
+}
