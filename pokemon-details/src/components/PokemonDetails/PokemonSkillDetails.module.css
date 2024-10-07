@@ -1,0 +1,22 @@
+.pokemon-skill-details {
+  width: 100%;
+}
+
+.pokemon-skill-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon-skill-details li {
+  display: inline-block;
+  background-color: #e5e7eb;
+  padding: 0.3em 0.5em;
+  border-radius: 16px;
+  margin-right: 12px;
+  margin-bottom: 16px;
+}
+
+.pokemon-skill-details li::first-letter {
+  text-transform: uppercase;
+}
