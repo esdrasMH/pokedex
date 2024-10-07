@@ -23,7 +23,7 @@ Este es un microfrontend generado con [Vite](https://vite.dev/) y desarrollado c
 2. Navega al directorio
 
    ```sh
-   cd /pokemon-list
+   cd pokemon-list
    ```
 
 3. Instala las dependencias
@@ -36,4 +36,10 @@ Este es un microfrontend generado con [Vite](https://vite.dev/) y desarrollado c
 
    ```sh
    npm run dev
+   ```
+
+5. Ejecuta el proyecto en modo vista previa de producción (opcional)
+
+   ```sh
+   npm run start
    ```
