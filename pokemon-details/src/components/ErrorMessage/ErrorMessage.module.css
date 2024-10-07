@@ -1,0 +1,12 @@
+.error-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  height: 220px;
+  border-radius: 12px;
+  background-color: #e5e7eb;
+  padding: 1em;
+  box-sizing: border-box;
+}
